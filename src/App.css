@@ -1,0 +1,27 @@
+
+.App {
+  max-width: 400px; 
+  margin: 3rem auto;
+  padding: 20px;
+  text-align: center;
+  border: 2px solid #ccc; 
+  border-radius: 8px; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-image: url('./imagenes/to-do.jpg'); 
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+}
+
+.contenedor-logo {
+  margin-bottom: 20px;
+}
+
+.logo {
+  width: 100px;
+  height: auto;
+}
+
+h1 {
+  color: #211761;
+}

@@ -1,0 +1,21 @@
+.formulario-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.input-tarea {
+    flex: 1;
+    padding: 8px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.btn-submit {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 8px 12px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}

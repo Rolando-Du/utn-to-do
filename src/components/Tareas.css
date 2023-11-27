@@ -1,0 +1,64 @@
+ul {
+    padding: 0;
+    list-style-type: none;
+  }
+  
+  li {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #706d6d; 
+    border-radius: 5px;
+    background: #ba8500;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #000;
+    font-size: 1.3em;
+    font-weight: 500;
+}
+
+  
+  span {
+    flex: 1;
+  }
+  
+  
+  li.realizada {
+    text-decoration: line-through 2px solid #ff0000;
+    color: #924747; 
+}
+
+  
+button {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 8px 12px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  margin-left: 5px;
+}
+
+/* Estilos específicos para cada ícono */
+button svg[data-icon='delete'] {
+  color: #ff0000;
+}
+
+button svg[data-icon='edit'] {
+  color: #008cba;
+}
+
+button svg[data-icon='done'] {
+  color: #4caf50;
+}
+
+/* Estilos específicos para cada ícono en SweetAlert2 */
+.swal2-popup button.swal2-confirm {
+  background-color: #3085d6;
+  color: #fff;
+}
+
+.swal2-popup button.swal2-cancel {
+  background-color: #d33;
+  color: #fff;
+}
